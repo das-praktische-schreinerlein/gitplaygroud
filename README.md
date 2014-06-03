@@ -15,7 +15,7 @@ mat-imageimporteditor
 # Desc
 This is a subset of managment-tools created for the imageimport on backend of www.michas-ausflugstipps.de/.
 
-1. allinone html-editor to prepare import of image-dirs to mediadb (more infos on [Portalinfos zur Datenpflege](www.michas-ausflugstipps.de/portal-datenpflege.html))
+1. allinone html-editor to prepare import of image-dirs to mediadb (more infos on www.michas-ausflugstipps.de/portal-datenpflege.html)
 2. imagedir-import-generator to prepare json-files for the imageimport-editor
 
 # TODO for me
@@ -100,7 +100,7 @@ mat-publishtools
 =====================
 
 # Desc
-This is a subset of publishing-tools created for [Michas-Books](www.michas-ausflugstipps.de/portal-bucherstellung.html) on www.michas-ausflugstipps.de
+This is a subset of publishing-tools created for Michas-Books on www.michas-ausflugstipps.de/portal-bucherstellung.html
 
 1. PDF-tools for converting, merge, trim and so on
 2. batchfiles for support
