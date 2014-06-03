@@ -2,3 +2,82 @@ playgroud
 =========
 
 my personal playground
+
+
+
+
+
++++++++++++++++++++++++++++++Test
+
+mat-imageimporteditor
+=====================
+
+# Desc
+1. allinone html-editor to prepare import of image-dirs to mediadb (backend of www.michas-ausflugstipps.de)
+2. imagedir-import-generator to prepare json-files for the imageimport-editor
+
+# TODO for me
+- [ ] documentation
+- [ ] externalize config
+- [ ] use and optimize it :-)
+
+# Requires
+- for building
+   - maven
+   - IDE (I built it with eclipse)
+- for run
+   - java
+   - browser with html5-support
+
+# Install
+- save the project to 
+```bat
+d:\public_projects\ImageImportEditor
+```
+
+- import project to Eclipse
+
+- run maven 
+```bat
+cd d:\public_projects\ImageImportEditor
+mvn compile
+mvn org.apache.maven.plugins:maven-assembly-plugin:assembly
+```
+
+# Example
+- save your jpg-images at 
+```bat
+D:\Bilder\digifotos\test\20140304-berlin\
+D:\Bilder\digifotos\test\20140305-muenchen\
+D:\Bilder\digifotos\test\20140307-hamburg\
+```
+
+- run generator
+```bat
+echo off
+d:\public_projects\ImageImportEditor\sbin\genImageDirImportEntries.bat D:\Bilder\digifotos\test > d:\tmp\importDigiFotos-test.json
+```
+
+- open editor
+```bat
+firefox d:\public_projects\ImageImportEditor\web\ImageImportEditor.html
+```
+
+- open jsonfile in firefox:ImageImportEditor.html
+```bat
+d:\tmp\importDigiFotos-test.json
+```
+
+# License
+```
+/**
+ * @author Michael Schreiner <ich@michas-ausflugstipps.de>
+ * @category publishing
+ * @copyright Copyright (c) 2005-2014, Michael Schreiner
+ * @license http://mozilla.org/MPL/2.0/ Mozilla Public License 2.0
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+```
