@@ -12,8 +12,8 @@ your-all-in-one - Le petit D'Artagnan
 =====================
 
 # Desc
-"Your-All-In-One" or "Le petit D'Artagnan" is the prototype of my collaboration-softwareproject.
-"D'Artagnan - Dein persönlicher Software-Musketier".
+"Your-All-In-One" or "Le petit D'Artagnan" is the prototype of my 
+collaboration-softwareproject: "D'Artagnan - Dein persönlicher Software-Musketier".
 
 More information about the prototype will you find at http://www.your-all-in-one.de/yaio/static/lepetit 
 
@@ -26,7 +26,7 @@ More information about the prototype will you find at http://www.your-all-in-one
    - maven
    - spring-roo
    - IDE (I built it with eclipse)
-- to use (look at http://www.your-all-in-one.de/yaio/static/lepetithow#h3_YAIO716=
+- to use (look at http://www.your-all-in-one.de/yaio/static/lepetithow#h3_YAIO716
    - java
    - notepadd++
    - freemind
@@ -56,10 +56,11 @@ mvn org.apache.maven.plugins:maven-assembly-plugin:assembly
 
 # Example
 - run example 
-'''bat
+```bat
 cd d:\public_projects\yaio
-src\test\testproject \gen-planung.bat
+src\test\testproject\gen-planung.bat
 ```
+Take a look at the Wiki, Mindmaps, Excel, html, ICal...
 
 # License
 ```
