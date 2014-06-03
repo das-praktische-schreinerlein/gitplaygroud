@@ -13,7 +13,8 @@ mat-imageimporteditor
 =====================
 
 # Desc
-This is a subset of managment-tools created for the imageimport on backend of www.michas-ausflugstipps.de/
+This is a subset of managment-tools created for the imageimport on backend of www.michas-ausflugstipps.de/.
+Be aware the whole portal is only described in german ;-)
 1. allinone html-editor to prepare import of image-dirs to mediadb (more infos on [Portalinfos zur Datenpflege](www.michas-ausflugstipps.de/portal-datenpflege.html))
 2. imagedir-import-generator to prepare json-files for the imageimport-editor
 
