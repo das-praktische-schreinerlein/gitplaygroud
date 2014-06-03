@@ -13,13 +13,21 @@ mat-imageimporteditor
 =====================
 
 # Desc
-1. allinone html-editor to prepare import of image-dirs to mediadb (backend of www.michas-ausflugstipps.de)
+This is a subset of managment-tools created for the imageimport on backend of www.michas-ausflugstipps.de/
+1. allinone html-editor to prepare import of image-dirs to mediadb (more infos on www.michas-ausflugstipps.de/portal-datenpflege.html)
 2. imagedir-import-generator to prepare json-files for the imageimport-editor
 
 # TODO for me
 - [ ] documentation
 - [ ] externalize config
 - [ ] use and optimize it :-)
+
+# History (future first ;-)
+- 2014 
+   - prepared the tools for going public (documentation...) 
+   - separated the public-tools
+- 2014
+   - initial version based on the original java+excel-tools
 
 # Requires
 - for building
